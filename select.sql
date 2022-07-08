@@ -1,1 +1,1 @@
-select * from category
+select * from users
