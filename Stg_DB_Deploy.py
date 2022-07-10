@@ -11,8 +11,8 @@ conn = redshift_connector.connect(
 cur = conn.cursor()
 cur.execute(open("stg_table.sql","r").read())
 conn.commit()
-rows = cur.fetchall()
-print(rows)
+#rows = cur.fetchall()
+#print(rows)
 print('Stage DB table created')
 
 conn.close()
