@@ -1,1 +1,1 @@
-select * from stg_db.emp;
+create table stagedb.emp5(id int,name varchar(20),salary int);
