@@ -1,1 +1,1 @@
-drop schema if exists stg_db cascade;
+drop schema if exists stage_db cascade;
